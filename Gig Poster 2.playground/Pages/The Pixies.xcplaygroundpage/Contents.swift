@@ -30,7 +30,9 @@ let black = Color(hue: 0, saturation: 0, brightness: 0, alpha: 100)
 let beige = Color(hue: 69, saturation: 6, brightness: 87, alpha: 100)
 
 // Begin your solution here...
-
+// Create background
+canvas.fillColor = pink
+canvas.drawEllipse(at: Point(x: 0, y: 0), width: 3000, height: 3000)
 
 /*:
  ## Use Source Control
