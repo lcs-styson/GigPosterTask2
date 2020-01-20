@@ -34,6 +34,36 @@ let beige = Color(hue: 69, saturation: 6, brightness: 87, alpha: 100)
 canvas.fillColor = pink
 canvas.drawEllipse(at: Point(x: 0, y: 0), width: 3000, height: 3000)
 
+
+// lets mess with borders
+canvas.drawShapesWithBorders = true
+canvas.borderColor = pink
+// Make upper right rectangles
+//rectangle 1
+canvas.defaultBorderWidth = 25
+canvas.borderColor = pink
+canvas.drawRectangle(at: Point( x: 0, y: 0), width: 200, height: 200)
+canvas.borderColor = black
+canvas.drawRectangle(at: Point( x: 0, y: 0), width: 175, height: 175)
+canvas.borderColor = beige
+canvas.drawRectangle(at: Point( x: 0, y: 0), width: 150, height: 150)
+canvas.borderColor = black
+canvas.drawRectangle(at: Point( x: 0, y: 0), width: 125, height: 125)
+//canvas.fillColor = black
+//canvas.drawRectangle(at: Point(x: 205, y: 205), width: 5000, height: 5000)
+//
+////rectangle 2
+//canvas.fillColor = pink
+//canvas.drawRectangle(at: Point(x: 220, y: 220), width: 5000, height: 5000)
+//
+////rectangle 3
+//canvas.drawShapesWithBorders = false
+//canvas.fillColor = beige
+//canvas.drawRectangle(at: Point(x: 235, y: 235), width: 5000, height: 5000)
+//
+////rectangle 4
+//canvas.fillColor = pink
+//canvas.drawRectangle(at: Point(x: 250, y: 250), width: 5000, height: 5000)
 /*:
  ## Use Source Control
  
